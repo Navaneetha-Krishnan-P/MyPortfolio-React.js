@@ -1,23 +1,70 @@
 .aboutMeContainer {
     display: flex;
     flex-direction: column;
+    margin-top: 70px;
     text-align: center;
+    padding: 20px; /* Added padding for better spacing */
+    box-sizing: border-box; /* Ensure padding is included in width calculation */
+}
+
+.aboutMeTitle {
+    margin-top: 70px;
+    margin-bottom: 40px; /* Reduced margin for better spacing on smaller screens */
+}
+
+p {
+    max-width: 100%; /* Ensure paragraphs don't exceed container width */
+    margin: 0 auto;
+    line-height: 1.6; /* Improved readability */
+}
+
+
+@media (min-width: 600px) {
+    .aboutMeContainer {
+        padding: 30px; /* Adjust padding for medium screens */
+    }
 
     .aboutMeTitle {
-        margin-bottom: 70px;
+        margin-top: 70px;
+        margin-bottom: 50px; /* Adjust margin for medium screens */
     }
 
     p {
-        max-width: 800px;
-        margin: 0 auto;
+        max-width: 90%; /* Increase width for better readability */
     }
 }
 
+/* Medium Devices (Tablets, 800px and up) */
 @media (min-width: 800px) {
     .aboutMeContainer {
         align-items: center;
-        padding: 40px;
+        padding: 40px; /* Adjust padding for larger screens */
+    }
 
+    .aboutMeTitle {
+        margin-top: 70px;
+        margin-bottom: 60px; /* Adjust margin for larger screens */
+    }
+
+    p {
+        max-width: 80%; /* Increase width for better readability on larger screens */
     }
 }
+
+/* Large Devices (Desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .aboutMeContainer {
+        padding: 60px; /* Adjust padding for large screens */
+    }
+
+    .aboutMeTitle {
+        margin-top: 70px;
+        margin-bottom: 70px; /* Adjust margin for large screens */
+    }
+
+    p {
+        max-width: 70%; /* Increase width for better readability on large screens */
+    }
+}
+
 
