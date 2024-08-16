@@ -1,0 +1,69 @@
+.container {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center; 
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+
+textarea,
+input:not([type='submit']) {
+  height: 50px;
+  padding-left: 16px;
+  width: 250px;
+}
+
+textarea {
+  padding-top: 16px;
+  resize: none;
+  height: 250px;
+}
+
+input,
+textarea {
+  border-radius: 10px;
+  border: #888 1px solid;
+  box-sizing: border-box;
+  justify-self: center;
+  background-color: var(--background-color);
+  color: var(--form-text-color);
+}
+
+::placeholder {
+  color: var(--form-text-color);
+  font: 1em sans-serif;
+}
+
+.submitButton {
+  align-self: center; 
+}
+.contactMe{
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 800px) {
+  textarea,
+  input:not([type='submit']) {
+    width: 600px;
+    font-size: 20px;
+  }
+  form {
+    gap: 40px;
+  }
+}
+
+@media (min-width: 1400px) {
+  textarea,
+  input:not([type='submit']) {
+    width: 800px;
+  }
+}
+

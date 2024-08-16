@@ -1,0 +1,23 @@
+.aboutMeContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    .aboutMeTitle {
+        margin-bottom: 70px;
+    }
+
+    p {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 800px) {
+    .aboutMeContainer {
+        align-items: center;
+        padding: 40px;
+
+    }
+}
+

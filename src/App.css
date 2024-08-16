@@ -1,0 +1,192 @@
+:root {
+    --background-color: whitesmoke;
+    --btn-color: linear-gradient(to right, rgb(184, 181, 181), rgb(75, 108, 135));
+    --btn-text-color: #222;
+    --project-card-bg: #ffffff00;
+    --text-color: #222;
+    --form-text-color: #555;
+    --footer-text-color: #888;
+    
+
+[data-theme="dark"] {
+    --background-color: #222;
+    --btn-color: linear-gradient(to right, rgb(184, 181, 181), rgb(75, 108, 135));
+    --btn-text-color: #222;
+    --project-card-bg: #fff;
+    --text-color: #fff;
+    --form-text-color: #fff;
+    --footer-text-color: #bbb;
+}
+}
+
+body {
+    background-color: var(--background-color);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 60px;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+h1, h2, h3, p {
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+}
+
+h2, h3, p {
+    font-family: "Roboto serif";
+}
+
+h2, h3 {
+    font-size: 25px;
+}
+
+h1 {
+    font-family: "Rubik", sans-serif;
+    font-size: 32px;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.sectionTitle {
+    margin-bottom: 30px;
+}
+
+.hover {
+    cursor: pointer;
+}
+
+button {
+    background: var(--btn-color);
+    color: var(--btn-text-color);
+    border: none;
+    border-radius: 10px;
+    width: 126px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    transition: box-shadow 200ms ease-in-out, transform 200ms ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: translateY(2px);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    height: 100dvh;
+    min-height: 500px;
+}
+
+.hero {
+    border-radius: 100px;
+    width: 70%; /* Default size for small screens */
+    max-height: 600px;
+    transition: width 300ms ease;
+}
+
+span {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+a {
+    width: fit-content;
+    align-self: center;
+}
+
+.colorModeContainer {
+    position: relative;
+}
+
+.colorMode {
+    position: absolute;
+    right: 2vw; /* Default position */
+    top: 2vw;
+    width: 25px;
+    transition: right 300ms ease, top 300ms ease;
+}
+
+.colorMode:hover {
+    cursor: pointer;
+}
+
+.description {
+    max-width: 24ch;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Small screens (less than 600px) */
+@media (max-width: 599px) {
+    .hero {
+        width: 90%; /* Increase size for small screens */
+    }
+
+    .colorMode {
+        right: 5vw; /* Adjust position for small screens */
+        top: 5vw;
+    }
+}
+
+/* Medium screens (600px to 799px) */
+@media (min-width: 600px) and (max-width: 799px) {
+    .hero {
+        width: 80%; /* Increase size for medium screens */
+    }
+
+    .colorMode {
+        right: 4vw; /* Adjust position for medium screens */
+        top: 4vw;
+    }
+}
+
+/* Large screens (800px and up) */
+@media (min-width: 800px) {
+    .container {
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .hero {
+        width: 60%; /* Adjust size for large screens */
+    }
+}
+
+@media (min-width: 1400px) {
+    .hero {
+        width: 50%; /* Largest size for very large screens */
+    }
+}
+
+
+
+
+

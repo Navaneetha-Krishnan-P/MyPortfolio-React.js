@@ -1,0 +1,29 @@
+.educationContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 70px;
+
+    .educationTitle {
+        margin-bottom: 50px;
+    }
+
+    p {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    .eduHead {
+        margin-top: 30px;
+    }
+    
+}
+
+
+@media (min-width: 800px) {
+    .educationContainer {
+        align-items: center;
+        padding: 40px;
+
+    }
+}
