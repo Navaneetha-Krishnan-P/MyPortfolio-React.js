@@ -54,6 +54,7 @@ textarea {
   input:not([type='submit']) {
     width: 600px;
     font-size: 20px;
+    margin-top: 50px;
   }
   form {
     gap: 40px;

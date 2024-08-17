@@ -25,7 +25,7 @@ p {
     }
 
     .aboutMeTitle {
-        margin-top: 70px;
+        margin-top: 40px;
         margin-bottom: 50px; /* Adjust margin for medium screens */
     }
 
@@ -42,7 +42,7 @@ p {
     }
 
     .aboutMeTitle {
-        margin-top: 70px;
+        margin-top: 40px;
         margin-bottom: 60px; /* Adjust margin for larger screens */
     }
 
@@ -58,7 +58,7 @@ p {
     }
 
     .aboutMeTitle {
-        margin-top: 70px;
+        margin-top: 40px;
         margin-bottom: 70px; /* Adjust margin for large screens */
     }
 

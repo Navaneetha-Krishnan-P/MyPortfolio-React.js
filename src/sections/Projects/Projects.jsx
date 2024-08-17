@@ -12,25 +12,25 @@ function Projects() {
       <div className={styles.projectsContainer}>
         <ProjectCard
           src={rentalEquipmentsPic}
-          link=""
+          link="https://market-for-rental-equipments-e-commerce-website-mern-v5yl.vercel.app"
           h3="Rental Equipments"
           p="Rent Equipment Online - MERN"
         />
         <ProjectCard
           src={employeeDashboardpic}
-          link=""
+          link="https://employee-dashboard-crud-mern-otc4.vercel.app"
           h3="Employees Dashboard"
           p="Employees Directory - MERN"
         />
         <ProjectCard
           src={weatherAppPic}
-          link="https://weather-app-react-mlya50mi9-krishnanks-projects.vercel.app"
+          link="https://weather-app-react-js-o3o4.vercel.app"
           h3="Weather App"
           p="Global Weather Tracker - React.js"
         />
         <ProjectCard
           src={shoppingCartPic}
-          link="https://shopping-cart-hooks-and-states-react-js-6hke-pfu4sdzvz.vercel.app"
+          link="https://shopping-cart-hooks-and-states-react-js-6hke.vercel.app"
           h3="Shopping Cart"
           p="Online Shopping - React.js"
         />
