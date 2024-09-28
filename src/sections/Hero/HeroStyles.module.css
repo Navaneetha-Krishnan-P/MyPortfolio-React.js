@@ -156,7 +156,7 @@
 
   .hero {
     margin-bottom: 30px;
-    max-width: 150px; /* Make the profile picture smaller on very small screens */
+    max-width: 250px; /* Make the profile picture smaller on very small screens */
   }
 
   .info {
