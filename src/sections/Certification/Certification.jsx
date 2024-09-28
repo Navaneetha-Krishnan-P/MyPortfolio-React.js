@@ -1,7 +1,5 @@
 import React from 'react'
 import styles from './CertificationStyles.module.css';
-import certificate from "../../assets//GuviCertificate.png";
-import { FaRegSquareCheck } from "react-icons/fa6";
 
 export const Certification = () => {
   return (
@@ -9,7 +7,7 @@ export const Certification = () => {
     <h1 className={styles.CertificationTitle}>Certification Course</h1>
     
     <div className={styles.eduHead}>
-        <img className='guvipic' src="https://play-lh.googleusercontent.com/CLgcmJ7TRmQIGBy8f8KBN1BDHbpmerwj_fgEriggjhaUIYO4mnfTHjqdF1d0ZNy1ziw" width={"100px"} height={"100px"}></img>
+        <img className='guvipic' src="https://play-lh.googleusercontent.com/CLgcmJ7TRmQIGBy8f8KBN1BDHbpmerwj_fgEriggjhaUIYO4mnfTHjqdF1d0ZNy1ziw" width={"100px"} height={"100px"} style={{borderRadius:"10px"}}></img>
         <br/><br/>
         <p>MERN - Full Stack Development</p>
         <p>Guvi Geek Private Limited, Chennai.</p>
