@@ -1,0 +1,157 @@
+/* Modal backdrop with a dark overlay and smooth fade-in effect */
+.modalBackdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    opacity: 0;
+    animation: fadeIn 0.4s forwards;
+  }
+  
+  /* Smooth fade-in animation for backdrop */
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Modal content with glassmorphism effect, rounded corners, and soft shadow */
+  .modalContent {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    border-radius: 16px;
+    padding: 30px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+    max-width: 600px;
+    width: 100%;
+    position: relative;
+    animation: slideUp 0.5s ease-out;
+  }
+  
+  /* Slide-up animation for the modal */
+  @keyframes slideUp {
+    from {
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  /* Centered title with modern font and spacing */
+  .modalHeader h2 {
+    font-size: 2rem;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 700;
+  }
+  
+  /* Modal body with subtle text style */
+  .modalBody {
+    text-align: center;
+    color: #e0e0e0;
+  }
+  
+  .modalBody p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+  }
+  
+  /* Styled buttons with gradient background, subtle hover effects */
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+  }
+  
+  .buttons a {
+    text-decoration: none;
+    width: 45%;
+  }
+  
+  .appButton, .sourceButton {
+    background: linear-gradient(135deg, #0077b6, #00aaff);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 0px 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .appButton:hover {
+    background: linear-gradient(135deg, #005f8b, #008fcc);
+  }
+  
+  .sourceButton {
+    background: linear-gradient(135deg, #52b788, #88c792);
+  }
+  
+  .sourceButton:hover {
+    background: linear-gradient(135deg, #40916c, #70ad7d);
+  }
+  
+  /* X button with unique style */
+  .closeButton {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    color: #e0e0e0;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+    line-height: 1;
+  }
+  
+  .closeButton:hover {
+    color: #ff4d4d;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 500px) {
+    .modalContent {
+      padding: 20px;
+      max-width: 100%;
+      margin: 0 25px;
+    }
+  
+    .modalHeader h2 {
+      font-size: 1.5rem;
+    }
+  
+    .modalBody p {
+      font-size: 1rem;
+    }
+  
+    .appButton, .sourceButton {
+      padding: 10px 10px;
+      font-size: 1rem;
+    }
+  
+    .closeButton {
+      font-size: 1rem;
+    }
+    .closeButton {
+        display: none;
+      }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
