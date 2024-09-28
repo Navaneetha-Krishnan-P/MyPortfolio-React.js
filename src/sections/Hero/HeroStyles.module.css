@@ -152,6 +152,7 @@
 @media (max-width: 599px) {
   .container {
     padding: 0 20px; /* Reduce padding for very small screens */
+    margin-top: 50px;
   }
 
   .hero {
