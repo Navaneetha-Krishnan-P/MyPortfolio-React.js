@@ -9,7 +9,7 @@ export const Education = () => {
     <section className={styles.educationContainer}>
         <h1 className={styles.educationTitle}>Education</h1>
         
-        <div className={styles.eduHead}>
+        {/* <div className={styles.eduHead}>
             <span><FaRegSquareCheck size={20} color='steelblue'/>&nbsp; <h3>Course</h3></span>
             <br/>
             <p>MERN - Full Stack Development</p>
@@ -19,7 +19,7 @@ export const Education = () => {
             <a href={certificate} download>
                     <button className={styles.buttonCourse}>Certificate</button>
             </a>
-        </div><br/>
+        </div><br/> */}
         <div className={styles.eduHead}>
             <span><FaRegSquareCheck size={20} color='steelblue'/>&nbsp; <h3>College</h3></span>
             <br/>

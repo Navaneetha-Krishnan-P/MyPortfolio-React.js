@@ -2,7 +2,6 @@ import styles from "./HeroStyles.module.css";
 import profilePic from "../../assets/MyPic.jpg";
 import sun from "../../assets/sun.svg";
 import moon from "../../assets/moon.svg";
-import resume from "../../assets/Navaneetha Krishnan P - Resume.pdf";
 import { useTheme } from "../../common/ThemeContext";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
@@ -30,7 +29,7 @@ function Hero() {
                 <p>"I am dedicated to developing modern React web apps tailored for commercial businesses."</p>
                 <p>"My focus is on creating efficient, scalable, and user-friendly applications that drive business growth."</p>
                 <p>"With a keen eye for design and functionality, I aim to deliver high-quality solutions that meet the evolving needs of the market."</p>
-                <a href={resume} download>
+                <a href="https://drive.google.com/file/d/1jkHXEve5Wl3yBOD4OAIVaKlDFDyjptHH/view?usp=drivesdk" target="_blank">
                     <button className={styles.button}>Resume</button>
                 </a>
             </div>
