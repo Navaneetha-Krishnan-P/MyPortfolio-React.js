@@ -1,9 +1,10 @@
 import React from 'react';
+import styles from './ProjectCardStyles.module.css';
 
 function ProjectCard({ src, h3, p, onClick }) {
   return (
-    <div onClick={onClick} style={{ cursor: 'pointer' }}>
-      <img className="hover" src={src} alt={`${h3} logo`} />
+    <div className={styles.card} onClick={onClick}>
+      <img className={styles.hover} src={src} alt={`${h3} logo`} />
       <h3>{h3}</h3>
       <p>{p}</p>
     </div>
@@ -11,4 +12,5 @@ function ProjectCard({ src, h3, p, onClick }) {
 }
 
 export default ProjectCard;
+
 

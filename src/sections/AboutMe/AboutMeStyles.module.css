@@ -3,67 +3,67 @@
     flex-direction: column;
     margin-top: 70px;
     text-align: center;
-    padding: 20px; /* Added padding for better spacing */
-    box-sizing: border-box; /* Ensure padding is included in width calculation */
+    padding: 20px; 
+    box-sizing: border-box; 
 }
 
 .aboutMeTitle {
     margin-top: 70px;
-    margin-bottom: 40px; /* Reduced margin for better spacing on smaller screens */
+    margin-bottom: 40px; 
 }
 
 p {
-    max-width: 100%; /* Ensure paragraphs don't exceed container width */
+    max-width: 100%; 
     margin: 0 auto;
-    line-height: 1.6; /* Improved readability */
+    line-height: 1.6; 
 }
 
 
 @media (min-width: 600px) {
     .aboutMeContainer {
-        padding: 30px; /* Adjust padding for medium screens */
+        padding: 30px; 
     }
 
     .aboutMeTitle {
         margin-top: 40px;
-        margin-bottom: 50px; /* Adjust margin for medium screens */
+        margin-bottom: 50px; 
     }
 
     p {
-        max-width: 90%; /* Increase width for better readability */
+        max-width: 90%;
     }
 }
 
-/* Medium Devices (Tablets, 800px and up) */
+
 @media (min-width: 800px) {
     .aboutMeContainer {
         align-items: center;
-        padding: 40px; /* Adjust padding for larger screens */
+        padding: 40px;
     }
 
     .aboutMeTitle {
         margin-top: 40px;
-        margin-bottom: 60px; /* Adjust margin for larger screens */
+        margin-bottom: 60px;
     }
 
     p {
-        max-width: 80%; /* Increase width for better readability on larger screens */
-    }
+        max-width: 80%;
+}
 }
 
-/* Large Devices (Desktops, 1200px and up) */
+
 @media (min-width: 1200px) {
     .aboutMeContainer {
-        padding: 60px; /* Adjust padding for large screens */
+        padding: 60px; 
     }
 
     .aboutMeTitle {
         margin-top: 40px;
-        margin-bottom: 70px; /* Adjust margin for large screens */
+        margin-bottom: 70px; 
     }
 
     p {
-        max-width: 70%; /* Increase width for better readability on large screens */
+        max-width: 70%;
     }
 }
 

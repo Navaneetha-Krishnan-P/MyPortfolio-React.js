@@ -1,0 +1,20 @@
+.card {
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card img {
+    width: 200px;
+    padding: 40px 20px;
+    align-self: center;
+    background-color: var(--project-card-bg);
+    border-radius: 50px;
+    margin-bottom: 20px;
+    height: 200px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+  }
+  

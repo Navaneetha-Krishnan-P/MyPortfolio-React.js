@@ -3,27 +3,89 @@
     flex-direction: column;
     text-align: center;
     margin-top: 70px;
-
-    .educationTitle {
-        margin-bottom: 50px;
-    }
-
-    p {
-        max-width: 800px;
-        margin: 0 auto;
-    }
-
-    .eduHead {
-        margin-top: 50px;
-    }
-    
 }
 
+.educationTitle {
+    margin-bottom: 50px;
+    font-size: 2.5rem;
+   
+}
+
+.eduHead {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid steelblue;
+    padding: 20px;
+    border-radius: 15px;
+    width: 80%;  
+    max-width: 800px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease-in-out;
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.eduText {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.eduIcon {
+    margin-bottom: 10px;
+}
+
+@keyframes slideRight {
+    from {
+        opacity: 0;
+        transform: translateX(-50%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideLeft {
+    from {
+        opacity: 0;
+        transform: translateX(50%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+[data-aos="slide-right"] {
+    animation: slideRight 0.6s forwards;
+}
+
+[data-aos="slide-left"] {
+    animation: slideLeft 0.6s forwards;
+}
 
 @media (min-width: 800px) {
     .educationContainer {
         align-items: center;
         padding: 40px;
-
     }
 }
+
+@media (max-width: 600px) { 
+    .eduHead {
+        width: 90%; 
+        margin-top: 30px; 
+        padding: 15px; 
+    }
+
+    .educationTitle {
+        font-size: 2rem; 
+}
+}
+
+
+
+
+

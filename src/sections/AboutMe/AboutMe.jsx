@@ -4,7 +4,7 @@ import styles from './AboutMeStyles.module.css';
 export const AboutMe = () => {
   return (
     <section className={styles.aboutMeContainer}>
-        <h1 className={styles.aboutMeTitle}>About Me</h1>
+        <h1 className={styles.aboutMeTitle} >About Me</h1>
         <div>
             <p>To use my extensive knowledge of software engineering, innovative problem-solving skills, and passion for technology to develop and implement high-quality software solutions and contribute to the success of the organization.</p>
             <br/>

@@ -1,4 +1,3 @@
-/* Existing CSS */
 
 .container {
   display: flex;
@@ -9,9 +8,9 @@
   height: 100vh;
   min-height: 500px;
   max-width: 100%;
-  width: 100%; /* Changed to 100% to occupy full width */
-  padding: 0 20px; /* Add padding instead of margin for centering */
-  box-sizing: border-box; /* Ensure padding is included in width calculation */
+  width: 100%; 
+  padding: 0 20px; 
+  box-sizing: border-box; 
 }
 
 .hero {
@@ -87,12 +86,10 @@
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
 }
 
-/* Media Queries */
 
-/* Small Devices (Tablets, 600px and up) */
 @media (min-width: 600px) {
   .container {
-    padding: 0 40px; /* Adjust padding for better spacing */
+    padding: 0 40px; 
   }
 
   .info {
@@ -100,17 +97,17 @@
   }
 
   .info p {
-    margin: 0px 60px; /* Adjusting margin for better spacing on tablets */
+    margin: 0px 60px; 
   }
 }
 
-/* Medium Devices (Desktops, 800px and up) */
+
 @media (min-width: 800px) {
   .container {
     flex-direction: row;
     align-items: center;
-    justify-content: center; /* Centering content horizontally */
-    padding: 0 100px; /* Adjust padding for larger screens */
+    justify-content: center; 
+    padding: 0 100px; 
   }
 
   .hero {
@@ -127,11 +124,11 @@
   }
 }
 
-/* Large Devices (Desktops, 1200px and up) */
+
 @media (min-width: 1200px) {
   .container {
     padding: 0 150px; 
-    margin: 0px 20px;/* Adjust padding for larger screens */
+    margin: 0px 20px;
   }
   .info p {
     text-align: center;
@@ -148,30 +145,30 @@
   }
 }
 
-/* Extra Small Devices (Less than 600px) */
+
 @media (max-width: 599px) {
   .container {
-    padding: 0 20px; /* Reduce padding for very small screens */
+    padding: 0 20px; 
     margin-top: 50px;
   }
 
   .hero {
     margin-bottom: 30px;
-    max-width: 250px; /* Make the profile picture smaller on very small screens */
+    max-width: 250px; 
   }
 
   .info {
     gap: 20px;
-    margin: 0 20px; /* Adjust margin for better spacing */
+    margin: 0 20px; 
   }
 
   .info span {
-    gap: 20px; /* Adjust gap between social icons for small screens */
+    gap: 20px; 
   }
 
   .colorMode {
-    width: 20px; /* Adjust the color mode icon size */
-    right: -40px; /* Adjust position of the color mode icon */
+    width: 20px; 
+    right: -40px; 
   }
 }
 
