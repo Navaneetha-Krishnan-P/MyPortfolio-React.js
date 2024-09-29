@@ -16,28 +16,28 @@ function Projects() {
       src: rentalEquipmentsPic,
       description: "Rent Equipment Online - MERN",
       viewApp: "https://market-for-rental-equipments-e-commerce-website-mern-v5yl.vercel.app",
-      viewSource: "https://github.com/username/rental-equipments"
+      viewSource: "https://github.com/Navaneetha-Krishnan-P/MarketForRentalEquipments-ECommerceWebsite-MERN"
     },
     {
       name: "Employees Dashboard",
       src: employeeDashboardpic,
       description: "Employees Directory - MERN",
       viewApp: "https://employee-dashboard-crud-mern-otc4.vercel.app",
-      viewSource: "https://github.com/username/employee-dashboard"
+      viewSource: "https://github.com/Navaneetha-Krishnan-P/EmployeeDashboard-CRUD-MERN"
     },
     {
       name: "Weather App",
       src: weatherAppPic,
       description: "Global Weather Tracker - React.js",
       viewApp: "https://weather-app-react-js-o3o4.vercel.app",
-      viewSource: "https://github.com/username/weather-app"
+      viewSource: "https://github.com/Navaneetha-Krishnan-P/WeatherApp-React.js"
     },
     {
       name: "Shopping Cart",
       src: shoppingCartPic,
       description: "Online Shopping - React.js",
       viewApp: "https://shopping-cart-hooks-and-states-react-js-6hke.vercel.app",
-      viewSource: "https://github.com/username/shopping-cart"
+      viewSource: "https://github.com/Navaneetha-Krishnan-P/ShoppingCart-HooksAndStates-React.js"
     }
   ];
 
