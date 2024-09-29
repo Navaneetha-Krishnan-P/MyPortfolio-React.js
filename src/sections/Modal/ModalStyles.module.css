@@ -58,7 +58,7 @@
  
   .modalBody {
     text-align: center;
-    color: #e0e0e0;
+    color: steelblue;
   }
   
   .modalBody p {
@@ -89,6 +89,7 @@
     cursor: pointer;
     transition: all 0.3s ease;
   }
+
   
   .appButton:hover {
     background: linear-gradient(135deg, #005f8b, #008fcc);

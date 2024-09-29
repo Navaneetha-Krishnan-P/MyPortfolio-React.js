@@ -3,68 +3,80 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  align-items: center; 
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
   align-items: center;
 }
 
-textarea,
-input:not([type='submit']) {
-  height: 50px;
-  padding-left: 16px;
-  width: 250px;
+.contactItem {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid steelblue; 
+  padding: 20px;
+  border-radius: 15px;
+  width: 80%;  
+  max-width: 800px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.5s ease-in-out;
+  margin-left: auto; 
+  margin-right: auto; 
 }
 
-textarea {
-  padding-top: 16px;
-  resize: none;
-  height: 250px;
+.emailTag, .phoneTag {
+  margin-bottom: 10px;
+  transition: transform 0.3s ease; 
 }
 
-input,
-textarea {
-  border-radius: 10px;
-  border: #888 1px solid;
-  box-sizing: border-box;
-  justify-self: center;
-  background-color: var(--background-color);
-  color: var(--form-text-color);
+.emailTag:hover, .phoneTag:hover {
+  transform: scale(1.6); 
 }
 
-::placeholder {
-  color: var(--form-text-color);
-  font: 1em sans-serif;
+@keyframes slideRight {
+  from {
+    opacity: 0;
+    transform: translateX(-50%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
-.submitButton {
-  align-self: center; 
+@keyframes slideLeft {
+  from {
+    opacity: 0;
+    transform: translateX(50%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
-.contactMe{
-  margin-top: 10px;
-  margin-bottom: 20px;
+
+[data-aos="slide-right"] {
+  animation: slideRight 0.6s forwards;
+}
+
+[data-aos="slide-left"] {
+  animation: slideLeft 0.6s forwards;
 }
 
 @media (min-width: 800px) {
-  textarea,
-  input:not([type='submit']) {
-    width: 600px;
-    font-size: 20px;
-    margin-top: 50px;
-  }
-  form {
-    gap: 40px;
+  .container {
+    align-items: center;
+    padding: 40px;
   }
 }
 
-@media (min-width: 1400px) {
-  textarea,
-  input:not([type='submit']) {
-    width: 800px;
+@media (max-width: 600px) { 
+  .contactItem {
+    width: 90%; 
+    margin-top: 15px; 
+    padding: 15px; 
   }
+
 }
+
+
+
 

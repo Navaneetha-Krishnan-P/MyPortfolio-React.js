@@ -14,9 +14,8 @@ function Modal({ project, onClose }) {
 
         <div className={styles.modalHeader}>
           <h2>{project.name}</h2>
-        </div>
+        </div><br/>
         <div className={styles.modalBody}>
-          <p>{project.description}</p>
           <div className={styles.buttons}>
             <a href={project.viewApp} target="_blank" rel="noopener noreferrer">
               <button className={styles.appButton}>View Live Demo</button>
