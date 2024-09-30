@@ -19,9 +19,16 @@ function Projects() {
       viewSource: "https://github.com/Navaneetha-Krishnan-P/MarketForRentalEquipments-ECommerceWebsite-MERN"
     },
     {
+      name: "Shopping Application",
+      src: shoppingCartPic,
+      description: "Online Shopping - MERN",
+      viewApp: "https://e-commerce-website-frontend-mern.vercel.app",
+      viewSource: "https://github.com/Navaneetha-Krishnan-P/E-CommerceWebsite-MERN"
+    },
+    {
       name: "Employees Dashboard",
       src: employeeDashboardpic,
-      description: "Employees Directory - MERN",
+      description: "Employee Directory - MERN",
       viewApp: "https://employee-dashboard-crud-mern-otc4.vercel.app",
       viewSource: "https://github.com/Navaneetha-Krishnan-P/EmployeeDashboard-CRUD-MERN"
     },
@@ -32,13 +39,7 @@ function Projects() {
       viewApp: "https://weather-app-react-js-o3o4.vercel.app",
       viewSource: "https://github.com/Navaneetha-Krishnan-P/WeatherApp-React.js"
     },
-    {
-      name: "Shopping Cart",
-      src: shoppingCartPic,
-      description: "Online Shopping - React.js",
-      viewApp: "https://shopping-cart-hooks-and-states-react-js-6hke.vercel.app",
-      viewSource: "https://github.com/Navaneetha-Krishnan-P/ShoppingCart-HooksAndStates-React.js"
-    }
+    
   ];
 
   const handleProjectClick = (project) => {
