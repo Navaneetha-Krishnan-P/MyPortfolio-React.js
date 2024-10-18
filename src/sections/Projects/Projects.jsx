@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import styles from './ProjectsStyles.module.css';
 import rentalEquipmentsPic from '../../assets/RentalEqupimentsPic.png';
-import weatherAppPic from '../../assets/WeatherAppPic.png';
+import shoppingCartPic from "../../assets/ShoppingCartPic.png"
 import employeeDashboardpic from '../../assets/EmployeeDashboardPic.png';
-import shoppingCartPic from '../../assets/ShoppingCartPic.png';
+import loginPic from '../../assets/LoginPic.png';
 import ProjectCard from '../../common/ProjectCard';
 import Modal from '../Modal/Modal';
 
@@ -33,11 +33,11 @@ function Projects() {
       viewSource: "https://github.com/Navaneetha-Krishnan-P/EmployeeDashboard-CRUD-MERN"
     },
     {
-      name: "Weather App",
-      src: weatherAppPic,
-      description: "Global Weather Tracker - React.js",
-      viewApp: "https://weather-app-react-js-o3o4.vercel.app",
-      viewSource: "https://github.com/Navaneetha-Krishnan-P/WeatherApp-React.js"
+      name: "Basic Login Form",
+      src:loginPic,
+      description: "Login and Register using JWT - MERN",
+      viewApp: "https://login-and-registration-form-frontend-mern.vercel.app",
+      viewSource: "https://github.com/Navaneetha-Krishnan-P/LoginAndRegistrationForm-MERN"
     },
     
   ];
