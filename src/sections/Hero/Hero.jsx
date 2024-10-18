@@ -19,10 +19,10 @@ function Hero() {
                 <h1>Navaneetha Krishnan P</h1>
                 <h2>Mern &nbsp;Stack &nbsp;Developer</h2>
                 <span>
-                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/Navaneetha-Krishnan-P" target="_blank" rel="noopener noreferrer">
                         <FaGithub className={styles.icon} size={35} />
                     </a>
-                    <a href="https://Linkedin.com/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/in/navaneetha-krishnan-p-470420253" target="_blank" rel="noopener noreferrer">
                         <FaLinkedin className={styles.icon} size={35} />
                     </a>
                 </span>
