@@ -36,7 +36,7 @@ function Projects() {
       name: "Basic Login Form",
       src:loginPic,
       description: "Login and Register using JWT - MERN",
-      viewApp: "https://login-and-registration-form-frontend-mern.vercel.app",
+      viewApp: "https://login-and-data-jw-tand-crud-frontend-mern.vercel.app",
       viewSource: "https://github.com/Navaneetha-Krishnan-P/LoginAndRegistrationForm-MERN"
     },
     
