@@ -17,7 +17,7 @@ function Hero() {
             </div>
             <div className={styles.info}>
                 <h1>Navaneetha Krishnan P</h1>
-                <h2>Mern &nbsp;Stack &nbsp;Developer</h2>
+                <marquee><h1 style={{color:"goldenrod"}}>MERN -&nbsp;Full &nbsp;Stack &nbsp;Developer</h1></marquee>
                 <span>
                     <a href="https://github.com/Navaneetha-Krishnan-P" target="_blank" rel="noopener noreferrer">
                         <FaGithub className={styles.icon} size={35} />
