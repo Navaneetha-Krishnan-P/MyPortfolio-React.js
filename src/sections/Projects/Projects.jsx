@@ -19,6 +19,13 @@ function Projects() {
       viewSource: "https://github.com/Navaneetha-Krishnan-P/MarketForRentalEquipments-ECommerceWebsite-MERN"
     },
     {
+      name: "Login and Todo App",
+      src:loginPic,
+      description: "Login and Register using JWT - MERN",
+      viewApp: "https://login-and-data-jw-tand-crud-frontend-mern.vercel.app",
+      viewSource: "https://github.com/Navaneetha-Krishnan-P/LoginAndDatas-JWTandCRUD-MERN"
+    },
+    {
       name: "Shopping Application",
       src: shoppingCartPic,
       description: "Online Shopping - MERN",
@@ -32,13 +39,7 @@ function Projects() {
       viewApp: "https://employee-dashboard-crud-mern-otc4.vercel.app",
       viewSource: "https://github.com/Navaneetha-Krishnan-P/EmployeeDashboard-CRUD-MERN"
     },
-    {
-      name: "Login and Todo App",
-      src:loginPic,
-      description: "Login and Register using JWT - MERN",
-      viewApp: "https://login-and-data-jw-tand-crud-frontend-mern.vercel.app",
-      viewSource: "https://github.com/Navaneetha-Krishnan-P/LoginAndDatas-JWTandCRUD-MERN"
-    },
+    
     
   ];
 
