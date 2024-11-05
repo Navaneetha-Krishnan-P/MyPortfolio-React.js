@@ -15,7 +15,7 @@ function Projects() {
       name: "Rental Equipments",
       src: rentalEquipmentsPic,
       description: "Rent Equipment Online - MERN",
-      viewApp: "https://market-for-rental-equipments-e-commerce-website-mern-v5yl.vercel.app",
+      viewApp: "https://market-for-rental-equipments-frontend-mern.vercel.app",
       viewSource: "https://github.com/Navaneetha-Krishnan-P/MarketForRentalEquipments-ECommerceWebsite-MERN"
     },
     {
