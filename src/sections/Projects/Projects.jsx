@@ -33,7 +33,7 @@ function Projects() {
       viewSource: "https://github.com/Navaneetha-Krishnan-P/EmployeeDashboard-CRUD-MERN"
     },
     {
-      name: "Login Form and Todo App",
+      name: "Login and Todo App",
       src:loginPic,
       description: "Login and Register using JWT - MERN",
       viewApp: "https://login-and-data-jw-tand-crud-frontend-mern.vercel.app",
